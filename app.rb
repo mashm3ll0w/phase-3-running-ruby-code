@@ -1,23 +1,16 @@
-# pp [{ id: 1, hello: "World" }, 
-#     { id: 2, hello: "Ruby" }, 
-#     { id: 3, hello: "Moon" }, 
-#     { id: 4, hello: "Learner" }]
+# # Print to console and add a new line
+# puts "Hello Ruby!"
 
-# p [1,2,3]
-# puts "Hello World!"
-# print "Pass this test, please."
-# p [1,2,3]
+# # Print to console but no new line
+# print "No New Line!!"
 
-# def add
-    
-# end
-# # 1 + 1
-# puts add + add
+# # Inspect simple data like an array
+# # This calls under the hood puts [1, 2, 3].inspect
+# p [1, 2, 3]
 
-def add num1, num2
-    puts num1
-    puts num2
-    num1 + num2
-end
+# # Inspect complex data like nested arrays and hashes(dictionaries/objects)
+# pp [{id: 1, name: "Charles"}, {id: 2, name: "Swaleh"}, {id: 3, name: "Mash"}]
 
-puts add(1,3) + add(2,2)
+puts "Hello World!"
+print "Pass this test, please."
+p [1, 2, 3]
